@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+      name="collective.behavior.automaticrelateditems"
+      interface="collective.behavior.automaticrelateditems.interfaces.IAddOnLayer"
+      />
+</layers>

@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-12-06 13:10+0000\n"
+"PO-Revision-Date: 2016-10-06 17:19-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+"Language: pt_BR\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#: collective/behavior/automaticrelateditems/profiles.zcml:14
+msgid "."
+msgstr ""
+
+#: collective/behavior/automaticrelateditems/profiles/default/controlpanel.xml
+msgid "Accelerated Mobile Pages"
+msgstr "Accelerated Mobile Pages"
+
+#: collective/behavior/automaticrelateditems/behaviors.zcml:15
+#: collective/behavior/automaticrelateditems/browser/controlpanel.py:12
+msgid "Automatic Related Items"
+msgstr ""
+
+#: collective/behavior/automaticrelateditems/profiles.zcml:14
+msgid "Automatic Related Items Support"
+msgstr ""
+
+#: collective/behavior/automaticrelateditems/interfaces.py:18
+msgid "Count"
+msgstr ""
+
+#: collective/behavior/automaticrelateditems/behaviors.zcml:15
+msgid "Fills automatically Related Items field."
+msgstr ""
+
+#: collective/behavior/automaticrelateditems/interfaces.py:19
+msgid "Number of Related Items to be added automatically."
+msgstr ""
+
+#: collective/behavior/automaticrelateditems/browser/controlpanel.py:13
+msgid "Settings for Automatic Related Items."
+msgstr ""
+
+#: collective/behavior/automaticrelateditems/profiles.zcml:23
+msgid "Uninstalls collective.behavior.automaticrelateditems."
+msgstr "Desinstala o collective.behavior.automaticrelateditems."
+
+#: collective/behavior/automaticrelateditems/profiles.zcml:23
+msgid "collective.behavior.automaticrelateditems: uninstall"
+msgstr "collective.behavior.automaticrelateditems: uninstall"
