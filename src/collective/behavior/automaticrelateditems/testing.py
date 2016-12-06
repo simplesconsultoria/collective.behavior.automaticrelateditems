@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Setup testing fixture.
 
-For Plone 5 we need to install plone.app.contenttypes.
+We need to install plone.app.contenttypes always.
 """
 from collective.behavior.automaticrelateditems.tests.utils import enable_automatic_related_items_behavior
 from plone.app.contenttypes.testing import PLONE_APP_CONTENTTYPES_FIXTURE as PLONE_FIXTURE
