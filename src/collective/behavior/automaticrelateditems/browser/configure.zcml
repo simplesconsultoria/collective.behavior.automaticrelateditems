@@ -15,4 +15,12 @@
       permission="collective.behavior.automaticrelateditems.Setup"
       />
 
+  <browser:page
+      name="automatic-related-items"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      class=".views.AutomaticRelatedItemsView"
+      permission="zope2.View"
+      layer="collective.behavior.automaticrelateditems.interfaces.IAddOnLayer"
+      />
+
 </configure>

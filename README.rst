@@ -7,7 +7,7 @@ Automatic Related Items Support
 Life, the Universe, and Everything
 ==================================
 
-TBD.
+A behavior for Dexterity-based content types to add a button to automatically fill related items based on Tags.
 
 Mostly Harmless
 ===============
@@ -49,9 +49,13 @@ Check the box next to ``Automatic Related Items Support`` and click the 'Activat
 Usage
 -----
 
-TBD.
+To use this behaviour you need to also enable Related Items behavior in your content type.
 
 How does it work
 ----------------
 
-TBD.
+When you fire the button to load related items, it will search for all the items with more similar tags, and fill the related items automatically.
+
+To calculate the similar tags, this package do one search for each tag, and sum how many times the item appear at the searches. The item that appear more are the item with more similar tags.
+
+The amount of items filled are configured into a controlpanel option.

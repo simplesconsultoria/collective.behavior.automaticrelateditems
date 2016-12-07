@@ -39,6 +39,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
+        'plone.api',
         'plone.app.registry',
         'plone.autoform',
         'plone.behavior',
@@ -56,8 +57,9 @@ setup(
     extras_require={
         'test': [
             'AccessControl',
-            'plone.api',
             'plone.app.contenttypes',
+            'plone.app.intid',
+            'plone.app.relationfield',
             'plone.app.robotframework',
             'plone.app.testing [robot]',
             'plone.browserlayer',
