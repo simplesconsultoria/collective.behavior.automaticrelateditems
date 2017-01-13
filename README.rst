@@ -15,13 +15,13 @@ Mostly Harmless
 .. image:: http://img.shields.io/pypi/v/collective.behavior.autorelateitems.svg
    :target: https://pypi.python.org/pypi/collective.behavior.autorelateitems
 
-.. image:: https://img.shields.io/travis/collective/collective.behavior.autorelateitems/master.svg
-    :target: http://travis-ci.org/collective/collective.behavior.autorelateitems
+.. image:: https://img.shields.io/travis/simplesconsultoria/collective.behavior.autorelateitems/master.svg
+    :target: http://travis-ci.org/simplesconsultoria/collective.behavior.autorelateitems
 
-.. image:: https://img.shields.io/coveralls/collective/collective.behavior.autorelateitems/master.svg
-    :target: https://coveralls.io/r/collective/collective.behavior.autorelateitems
+.. image:: https://img.shields.io/coveralls/simplesconsultoria/collective.behavior.autorelateitems/master.svg
+    :target: https://coveralls.io/r/simplesconsultoria/collective.behavior.autorelateitems
 
-Got an idea? Found a bug? Let us know by `opening a support ticket <https://github.com/collective/collective.behavior.autorelateitems/issues>`_.
+Got an idea? Found a bug? Let us know by `opening a support ticket <https://github.com/simplesconsultoria/collective.behavior.autorelateitems/issues>`_.
 
 Don't Panic
 ===========

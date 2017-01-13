@@ -32,7 +32,7 @@ setup(
     keywords='plone related items dexterity behavior',
     author='Simples Consultoria',
     author_email='produtos@simplesconsultoria.com.br',
-    url='https://github.com/collective/collective.behavior.autorelateitems',
+    url='https://github.com/simplesconsultoria/collective.behavior.autorelateitems',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     namespace_packages=['collective', 'collective.behavior'],
