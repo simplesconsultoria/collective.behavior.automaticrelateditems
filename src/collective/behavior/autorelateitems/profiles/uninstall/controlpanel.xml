@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<object name="portal_controlpanel">
+  <configlet title="Accelerated Mobile Pages"
+      action_id="autorelateitems"
+      appId="collective.behavior.autorelateitems"
+      remove="True"
+      />
+</object>

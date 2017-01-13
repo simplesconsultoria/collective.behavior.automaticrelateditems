@@ -1,0 +1,26 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.behavior.autorelateitems" >
+
+  <browser:resourceDirectory
+      name="collective.behavior.autorelateitems"
+      directory="static"
+      />
+
+  <browser:page
+      class=".controlpanel.AutoRelateItemsSettingsControlPanel"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      name="autorelateitems-settings"
+      permission="collective.behavior.autorelateitems.Setup"
+      />
+
+  <browser:page
+      name="automatic-related-items"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      class=".views.AutoRelateItemsView"
+      permission="zope2.View"
+      layer="collective.behavior.autorelateitems.interfaces.IAddOnLayer"
+      />
+
+</configure>
